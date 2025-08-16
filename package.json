@@ -1,0 +1,19 @@
+{
+  "name": "ar-pflanzenidentifikation",
+  "version": "1.0.0",
+  "description": "Eine Augmented-Reality-Anwendung zur Identifikation von Pflanzen über das Smartphone.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
