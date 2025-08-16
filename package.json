@@ -4,8 +4,8 @@
   "description": "An augmented reality application for identifying plants using a smartphone.",
   "main": "src/app.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development",
-    "build": "webpack --mode production"
+    "start": "webpack-dev-server --mode development", // Start the development server
+    "build": "webpack --mode production" // Build for production
   },
   "dependencies": {
     "react": "^17.0.2",
