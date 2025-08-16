@@ -21,4 +21,6 @@ module.exports = {
       },
     ],
   },
+  // Enable source maps for better debugging
+  devtool: 'source-map',
 };
